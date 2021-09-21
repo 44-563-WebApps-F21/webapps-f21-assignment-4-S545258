@@ -1,0 +1,31 @@
+p{
+ font-size:12;
+ color:black;
+ font:"font: 15px Arial,sans-serif;"
+}
+
+p.speech {
+    font-size=15px;
+    font-family: sans-serif;
+}
+
+h6{
+    font-size: 16px;
+    color: cadetblue;
+}
+
+p.stage-Direction:{
+    background-color:yellowgreen;
+}
+
+p.stage-Direction:hover{
+    color:white;
+    background-color:skyblue;
+}
+h6.Gwendolen{
+    color:blue;
+}
+h6. CECILY{
+    color:blue;
+}
+
