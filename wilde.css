@@ -25,9 +25,11 @@ p.stagedirections:hover{
 }
 h6.Gwendolen{
     color:blue;
+    margin-left: 20px;
 }
 h6.CECILY{
     color:blue;
+    margin-left: 20px;
 }
 h6.Gwendolen:hover{
     color: red;
@@ -53,3 +55,39 @@ table, th, td {
   tr:nth-child(even) {
     background-color:#ccc;
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: ruby-base-container;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  .icon:before{
+    content: '';
+    background:url('icon.png');
+    background-size:cover;
+    position:absolute;
+    background-color: skyblue;
+    width: 25px;
+    height:35px;
+    margin-left:-8px;
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    height: 400px;
+    width: 325px;
+}
